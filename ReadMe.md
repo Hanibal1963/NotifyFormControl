@@ -6,7 +6,7 @@ Steuerelement zum anzeigen von Benachrichtigungsfenstern.
 
 - **Design** - Helles, Farbiges oder Dunkles Design des Fensters
 - **Style** - Style des fensters als Infofenster, Fragefenster, Fehlerfenster oder Hinweisfenster
-- **ShowTime** - Anzeigezeit des fensters bis zum automatischem schlieﬂen in Sekunden
+- **ShowTime** - Anzeigezeit des Fensters bis zum automatischem schlie√üen in Sekunden
 - **Title** - Text der Titelzeile
 - **Message** - Mitteilungstext
 - **Show** - Zeigt das Fenster an
