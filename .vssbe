@@ -1,0 +1,30 @@
+﻿{
+  "Header": {
+    "_": [
+      " This file for vsSolutionBuildEvent ",
+      " https://github.com/3F/vsSolutionBuildEvent "
+    ],
+    "Compatibility": "0.12.4"
+  },
+  "PreBuild": [
+    {
+      "Enabled": false,
+      "Name": "Act",
+      "SupportMSBuild": false,
+      "SupportSBEScripts": false,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": false,
+        "Hidden": false,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "File",
+        "Command__": [
+          "> Run project"
+        ]
+      }
+    }
+  ]
+}
