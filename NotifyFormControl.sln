@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NotifyFormControl", "NotifyFormControl\NotifyFormControl.vbproj", "{B70F620F-1591-4639-B395-234A4B0F7485}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NotifyFormDemo", "NotifyFormDemo\NotifyFormDemo.vbproj", "{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{9B20F777-D726-4D05-83C2-25D818D0F560}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|arm64 = Debug|arm64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|arm64 = Release|arm64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Debug|arm64.ActiveCfg = Debug|arm64
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Debug|arm64.Build.0 = Debug|arm64
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Debug|x86.ActiveCfg = Debug|x86
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Debug|x86.Build.0 = Debug|x86
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Release|arm64.ActiveCfg = Release|arm64
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Release|arm64.Build.0 = Release|arm64
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Release|x86.ActiveCfg = Release|x86
+		{B70F620F-1591-4639-B395-234A4B0F7485}.Release|x86.Build.0 = Release|x86
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Debug|arm64.Build.0 = Debug|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Debug|x86.Build.0 = Debug|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Release|arm64.ActiveCfg = Release|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Release|arm64.Build.0 = Release|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Release|x86.ActiveCfg = Release|Any CPU
+		{FEFC8701-6162-4E21-8AEA-9EAA47390D8B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {042F3C02-51D0-4603-A975-D7C19B7219CA}
+	EndGlobalSection
+EndGlobal
