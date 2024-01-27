@@ -11,7 +11,7 @@ Imports Microsoft.VisualBasic
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("SchlumpfSoft")>
 <Assembly: AssemblyProduct("NotifyFormControl")>
-<Assembly: AssemblyCopyright("� 2023 - 2024 by Andreas Sauer")>
+<Assembly: AssemblyCopyright("© 2023 - 2024 by Andreas Sauer")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 
@@ -30,7 +30,7 @@ Imports Microsoft.VisualBasic
 ' You can specify all the values or you can default the Build and Revision Numbers 
 ' by using the '*' as shown below:
 ' [assembly: AssemblyVersion("1.0.*")]
-<Assembly: AssemblyVersion("1.2024.0127.4")>
-<Assembly: AssemblyFileVersion("1.2024.0127.4")>
+<Assembly: AssemblyVersion("1.2024.0127.5")>
+<Assembly: AssemblyFileVersion("1.2024.0127.5")>
 
-<assembly: AssemblyInformationalVersion("0.2024.0127.4")>
+<assembly: AssemblyInformationalVersion("0.2024.0127.5")>
