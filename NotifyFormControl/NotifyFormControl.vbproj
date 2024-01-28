@@ -62,8 +62,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormDesign.vb" />
-    <Compile Include="FormStyle.vb" />
+    <Compile Include="EnumDefinitions.vb" />
     <Compile Include="FormTemplate.vb">
       <SubType>Form</SubType>
     </Compile>

@@ -4,8 +4,10 @@
         <Identity Id="NotifyFormControl.94c43dc1-3cb1-437b-a060-cee5967481d0" Version="1.2024.0127.00" Language="de-DE" Publisher="Andreas Sauer" />
         <DisplayName>NotifyFormControl</DisplayName>
         <Description xml:space="preserve">Control zum Anzeigen eines Benachrichtigungsfensters.</Description>
+        <MoreInfo>https://github.com/Hanibal1963/NotifyFormControl</MoreInfo>
         <License>LICENSE.txt</License>
         <Icon>Papa Schlumpf 08.jpg</Icon>
+        <Tags>Control, Form,Windows,Benachrichtigung</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
