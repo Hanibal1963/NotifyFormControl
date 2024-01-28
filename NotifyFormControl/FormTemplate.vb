@@ -57,12 +57,14 @@ Friend Class FormTemplate
 
     Protected Overrides Sub Dispose(disposing As Boolean)
         'Bereinigung durchführen
-        Me.LabelClose.Dispose()
-        Me.LabelTitle.Dispose()
-        Me.PanelSpacer.Dispose()
-        Me.PanelTitle.Dispose()
-        Me.PictureBoxImage.Dispose()
-        Me.RichTextBoxMessage.Dispose()
+        With Me
+            .LabelClose.Dispose()
+            .LabelTitle.Dispose()
+            .PanelSpacer.Dispose()
+            .PanelTitle.Dispose()
+            .PictureBoxImage.Dispose()
+            .RichTextBoxMessage.Dispose()
+        End With
         MyBase.Dispose(disposing)
     End Sub
 
@@ -95,15 +97,17 @@ Friend Class FormTemplate
     End Sub
 
     Private Sub Form_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Me.Opacity = 0.1
-        Me.SetPropertys_Lbl_Close()
-        Me.SetPropertys_Panel_Spacer()
-        Me.SetPropertys_Pb_Image()
-        Me.SetPropertys_Panel_Title()
-        Me.SetPropertys_Lbl_Title()
-        Me.SetPropertys_Txt_Msg()
-        Me.AddControls()
-        Me.ActiveControl = Me.Controls.Item(1)
+        With Me
+            .Opacity = 0.1
+            .SetPropertys_Lbl_Close()
+            .SetPropertys_Panel_Spacer()
+            .SetPropertys_Pb_Image()
+            .SetPropertys_Panel_Title()
+            .SetPropertys_Lbl_Title()
+            .SetPropertys_Txt_Msg()
+            .AddControls()
+            .ActiveControl = .Controls.Item(1)
+        End With
         'Ändern Sie die Position in die untere rechte Ecke
         Dim x As Integer = Screen.PrimaryScreen.WorkingArea.Width
         Dim y As Integer = Screen.PrimaryScreen.WorkingArea.Height - Me.Height - 50
