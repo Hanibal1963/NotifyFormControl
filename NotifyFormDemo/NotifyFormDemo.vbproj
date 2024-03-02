@@ -22,9 +22,9 @@
     <UpdatePackageVersion>False</UpdatePackageVersion>
     <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
     <InheritWinAppVersionFrom>AssemblyVersion</InheritWinAppVersionFrom>
-    <ApplicationVersion>1.2024.0127.30</ApplicationVersion>
+    <ApplicationVersion>1.2024.0127.31</ApplicationVersion>
     <PrimaryVersionType>AssemblyInfoVersionAttribute</PrimaryVersionType>
-    <AssemblyVersion>1.2024.0127.31</AssemblyVersion>
+    <AssemblyVersion>1.2024.0302.32</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
