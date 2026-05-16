@@ -14,7 +14,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <AssemblyVersion>1.2026.0506.2</AssemblyVersion>
+    <AssemblyVersion>1.2026.0507.1</AssemblyVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -123,7 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NotifyFormControl\NotifyFormControl.vbproj">
-      <Project>{8a69ae7d-15c9-4c9f-860c-8a2fe4012d68}</Project>
+      <Project>{09d0c3a3-d632-4ff7-8efd-17c40413cd8e}</Project>
       <Name>NotifyFormControl</Name>
     </ProjectReference>
   </ItemGroup>
