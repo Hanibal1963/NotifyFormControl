@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="NotifyFormControl.615370b4-80d1-4e6e-9e03-d0c90b541361" Version="1.2026.0507" Language="de-DE" Publisher="Andreas Sauer" />
+        <Identity Id="NotifyFormControl.615370b4-80d1-4e6e-9e03-d0c90b541361" Version="1.2026.0517" Language="de-DE" Publisher="Andreas Sauer" />
         <DisplayName>NotifyFormControl</DisplayName>
         <Description xml:space="preserve">Ein Control zum Anzeigen von Benachrichtigungsfenstern.</Description>
+        <MoreInfo>https://github.com/Hanibal1963/NotifyFormControl</MoreInfo>
         <License>LICENSE.rtf</License>
-        <ReleaseNotes>ReleaseNotes.rtf</ReleaseNotes>
         <Icon>Icon.png</Icon>
+        <Tags>Notify, Windows, Forms, Control</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
